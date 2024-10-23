@@ -12,17 +12,26 @@
 
 body {
   height: 100%;   
-  font-family: 'hello', sans-serif;      
+  font-family: 'hello', sans-serif; 
 }
 
-h1,
+h1 {
+  padding: 30px;
+  font-size: 56px;
+}
+
 h2,
-h3,
-h4,
-h5,
-p {
-  padding: 15px;
+h3 {
+  padding: 30px;
   font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
 }
 
 ul {
@@ -36,7 +45,7 @@ li {
 
 .header {
   height: 100vh;       /* Fill the full height of the viewport */  
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,8 +54,8 @@ li {
 }
 
 .about {
-  height: 100vh;
-  border: 2px solid blue;
+  height: 110vh;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -55,17 +64,54 @@ li {
 }
 
 .services {
-  height: 100vh;
-  border: 2px solid blue;
+  height: 110vh;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.clients {
+  height: 110vh;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact {
+  height: 100vh;
+  /* border: 2px solid blue; */
+  background-color: #1C1C1C;
+  color: white;
+  align-content: flex-end;
+  text-align: right;
+}
+
+.footer {
+  height: 300px;
+  /* border: 2px solid blue; */
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-top: 200px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .services-list {
   margin-right: 150px;
 }
 
+.quote {
+  padding-right: 30px;
+}
 
 .rotate-text {
   transform: rotate(-90deg);
