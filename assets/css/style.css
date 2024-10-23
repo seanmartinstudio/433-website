@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'hello';
+  src: url("/assets/fonts/PPFraktionSans-Bold.otf") format("opentype");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;   
+  font-family: 'hello', sans-serif;      
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 15px;
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.header {
+  height: 100vh;       /* Fill the full height of the viewport */  
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1C1C1C;
+  color: white;
+}
+
+.about {
+  height: 100vh;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1C1C1C;
+  color: white;
+}
+
+.services {
+  height: 100vh;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-list {
+  margin-right: 150px;
+}
+
+
+.rotate-text {
+  transform: rotate(-90deg);
+}
+
+.rotate-text-h3 {
+  transform: rotate(90deg);
+  margin-right: -125px; /* Adjust negative value as needed */
+}
+
+
+.about-item {
+  flex: 3;
+}
+
+.empty-div {
+  flex: 1;
+}
+
+
